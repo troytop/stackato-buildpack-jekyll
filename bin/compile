@@ -31,4 +31,4 @@ export PATH=$1/.gems/bin:$PATH
 export LC_ALL=en_US.UTF8
 cd $1
 message "Compiling Jekyll site"
-$1/.gems/bin/jekyll --no-auto --no-server --no-lsi --safe | indent
+$1/.gems/bin/jekyll build --no-lsi --safe | indent

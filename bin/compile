@@ -15,11 +15,14 @@ gempath:
 - $1/.gems
 EOF
 
-message "Installing jekyll version 0.11.2"
-gem install jekyll -v 0.11.2 --no-rdoc --no-ri | indent
+message "Installing Liquid version 2.5.4"
+gem install liquid -v 2.5.4 --no-rdoc --no-ri | indent
 
-message "Installing Liquid version 2.2.2"
-gem install liquid -v 2.2.2 --no-rdoc --no-ri | indent
+message "Installing jekyll version 1.3.0"
+gem install jekyll -v 1.3.0 --no-rdoc --no-ri | indent
+
+message "Installing asciidoctor version 0.1.4"
+gem install ascidoctor -v 0.1.4 --no-rdoc --no-ri | indent
 
 # Run Jekyll
 message "Setting environment variables"

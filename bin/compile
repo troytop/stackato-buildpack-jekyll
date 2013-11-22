@@ -27,6 +27,12 @@ gem install kramdown -v 1.2.0 --no-rdoc --no-ri | indent
 message "Installing asciidoctor version 0.1.4"
 gem install asciidoctor -v 0.1.4 --no-rdoc --no-ri | indent
 
+message "Installing chronic version 0.10.2"
+gem install chronic -v 0.10.2 --no-rdoc --no-ri | indent
+
+message "Installing google-api-client version 0.6.4"
+gem install google-api-client -v 0.6.4 --no-rdoc --no-ri | indent
+
 # Run Jekyll
 message "Setting environment variables"
 export GEM_HOME=$1/.gems
